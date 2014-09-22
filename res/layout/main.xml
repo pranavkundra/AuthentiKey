@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:id="@+id/xMLayout"
+	android:background="#000000" android:layout_height="fill_parent"
+	android:focusable="true"
+	android:orientation="vertical">
+	<RelativeLayout
+		android:layout_width="fill_parent" android:id="@+id/xsubLayout"
+		android:keepScreenOn="true" android:orientation="vertical"
+		android:layout_height="fill_parent">
+		<EditText android:id="@+id/xEt" android:layout_width="fill_parent"
+			android:focusableInTouchMode="true" android:layout_height="wrap_content"
+			android:visibility="invisible" />
+
+		<Button
+		    android:id="@+id/train"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/xEt"
+		    android:layout_centerHorizontal="true"
+		    android:onClick="displayedittext"
+		    android:text="train" />
+
+	</RelativeLayout>
+	<RelativeLayout 
+		android:layout_width="wrap_content" android:id="@+id/xK1"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:visibility="gone">
+		<include android:id="@+id/xKeyBoard" layout="@layout/keyboard"></include>
+	</RelativeLayout>
+</RelativeLayout>
