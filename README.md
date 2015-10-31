@@ -1,7 +1,7 @@
 AuthentiKey
 ===========
 
-A Proof of Concept for our method of authentication on mobile devices using Keystroke Dynamics. We use a multivariate Gaussian distribution based on the rhythm of the user's keystrokes.
+A Proof of Concept for our method of authentication on mobile devices using Keystroke Dynamics. We use a multi variable Gaussian distribution based on the rhythm of the user's keystrokes.
 
 View the paper <a href="http://goo.gl/qHThjQ" target="_blank">here</a>.
 
